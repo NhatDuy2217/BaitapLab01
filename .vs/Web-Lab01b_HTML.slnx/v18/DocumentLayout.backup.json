@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8156A832-318D-4F8D-9712-80838E1F22ED}|Web-Lab01b_HTML\\Web-Lab01b_HTML.csproj|c:\\users\\nhatd\\source\\repos\\web-lab01b_html\\web-lab01b_html\\views\\index\\bai5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8156A832-318D-4F8D-9712-80838E1F22ED}|Web-Lab01b_HTML\\Web-Lab01b_HTML.csproj|solutionrelative:web-lab01b_html\\views\\index\\bai5.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8156A832-318D-4F8D-9712-80838E1F22ED}|Web-Lab01b_HTML\\Web-Lab01b_HTML.csproj|c:\\users\\nhatd\\source\\repos\\web-lab01b_html\\web-lab01b_html\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8156A832-318D-4F8D-9712-80838E1F22ED}|Web-Lab01b_HTML\\Web-Lab01b_HTML.csproj|solutionrelative:web-lab01b_html\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8156A832-318D-4F8D-9712-80838E1F22ED}|Web-Lab01b_HTML\\Web-Lab01b_HTML.csproj|c:\\users\\nhatd\\source\\repos\\web-lab01b_html\\web-lab01b_html\\views\\index\\bai4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8156A832-318D-4F8D-9712-80838E1F22ED}|Web-Lab01b_HTML\\Web-Lab01b_HTML.csproj|solutionrelative:web-lab01b_html\\views\\index\\bai4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8156A832-318D-4F8D-9712-80838E1F22ED}|Web-Lab01b_HTML\\Web-Lab01b_HTML.csproj|c:\\users\\nhatd\\source\\repos\\web-lab01b_html\\web-lab01b_html\\views\\index\\bai3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8156A832-318D-4F8D-9712-80838E1F22ED}|Web-Lab01b_HTML\\Web-Lab01b_HTML.csproj|solutionrelative:web-lab01b_html\\views\\index\\bai3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8156A832-318D-4F8D-9712-80838E1F22ED}|Web-Lab01b_HTML\\Web-Lab01b_HTML.csproj|c:\\users\\nhatd\\source\\repos\\web-lab01b_html\\web-lab01b_html\\views\\index\\bai2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8156A832-318D-4F8D-9712-80838E1F22ED}|Web-Lab01b_HTML\\Web-Lab01b_HTML.csproj|solutionrelative:web-lab01b_html\\views\\index\\bai2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bai5.cshtml",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\Web-Lab01b_HTML\\Views\\Index\\Bai5.cshtml",
+              "RelativeDocumentMoniker": "Web-Lab01b_HTML\\Views\\Index\\Bai5.cshtml",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\Web-Lab01b_HTML\\Views\\Index\\Bai5.cshtml",
+              "RelativeToolTip": "Web-Lab01b_HTML\\Views\\Index\\Bai5.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T14:08:05.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bai4.cshtml",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\Web-Lab01b_HTML\\Views\\Index\\Bai4.cshtml",
+              "RelativeDocumentMoniker": "Web-Lab01b_HTML\\Views\\Index\\Bai4.cshtml",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\Web-Lab01b_HTML\\Views\\Index\\Bai4.cshtml",
+              "RelativeToolTip": "Web-Lab01b_HTML\\Views\\Index\\Bai4.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T14:03:14.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bai3.cshtml",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\Web-Lab01b_HTML\\Views\\Index\\Bai3.cshtml",
+              "RelativeDocumentMoniker": "Web-Lab01b_HTML\\Views\\Index\\Bai3.cshtml",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\Web-Lab01b_HTML\\Views\\Index\\Bai3.cshtml",
+              "RelativeToolTip": "Web-Lab01b_HTML\\Views\\Index\\Bai3.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T14:00:53.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bai2.cshtml",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\Web-Lab01b_HTML\\Views\\Index\\Bai2.cshtml",
+              "RelativeDocumentMoniker": "Web-Lab01b_HTML\\Views\\Index\\Bai2.cshtml",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\Web-Lab01b_HTML\\Views\\Index\\Bai2.cshtml",
+              "RelativeToolTip": "Web-Lab01b_HTML\\Views\\Index\\Bai2.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T13:58:22.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IndexController.cs",
+              "DocumentMoniker": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\Web-Lab01b_HTML\\Controllers\\IndexController.cs",
+              "RelativeDocumentMoniker": "Web-Lab01b_HTML\\Controllers\\IndexController.cs",
+              "ToolTip": "C:\\Users\\nhatd\\source\\repos\\Web-Lab01b_HTML\\Web-Lab01b_HTML\\Controllers\\IndexController.cs",
+              "RelativeToolTip": "Web-Lab01b_HTML\\Controllers\\IndexController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T13:58:03.981Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
