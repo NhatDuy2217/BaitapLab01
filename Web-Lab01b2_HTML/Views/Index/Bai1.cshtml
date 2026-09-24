@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bài 1 - Dùng Table</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Times New Roman", serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        .main-table {
+            width: 100%;
+            height: 900px;
+            border: 3px solid black;
+        }
+
+            .main-table td {
+                border: 2px solid black;
+            }
+
+        .menu {
+            width: 30%;
+            vertical-align: top;
+            padding: 40px 30px;
+            font-size: 28px;
+        }
+
+            .menu ul {
+                margin-top: 50px;
+                padding-left: 30px;
+            }
+
+            .menu li {
+                margin-bottom: 25px;
+            }
+
+        .logo {
+            height: 20%;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 45px;
+        }
+
+        .content-table {
+            width: 100%;
+            height: 100%;
+        }
+
+            .content-table td {
+                border: 2px solid black;
+                vertical-align: top;
+                padding: 35px;
+            }
+
+        .content1 {
+            width: 50%;
+            font-size: 25px;
+        }
+
+        .right-content {
+            width: 50%;
+        }
+
+        .content2 {
+            height: 50%;
+            font-size: 25px;
+        }
+
+        .content3 {
+            height: 50%;
+            font-size: 25px;
+        }
+
+        .content-title {
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .text-line {
+            margin: 25px 0;
+        }
+
+        .image-box {
+            width: 120px;
+            height: 150px;
+            border: 2px solid black;
+            float: right;
+            margin-left: 20px;
+        }
+
+        .circle-list {
+            padding-left: 35px;
+        }
+
+            .circle-list li {
+                margin-bottom: 20px;
+            }
+    </style>
+</head>
+
+<body>
+
+    <table class="main-table">
+
+        <tr>
+
+            <td class="menu" rowspan="2">
+
+                <strong>
+                    danh sách<br>
+                    các mục<br>
+                    liên kết
+                </strong>
+
+                <ul>
+                    <li>Liên kết 1</li>
+                    <li>Liên kết 2</li>
+                    <li>Liên kết 3</li>
+                    <li>Liên kết 4</li>
+                </ul>
+
+            </td>
+
+            <td class="logo">
+                Logo
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+
+                <table class="content-table">
+
+                    <tr>
+
+                        <td class="content1" rowspan="2">
+
+                            <div class="content-title">
+                                Nội dung 1
+                            </div>
+
+                            <div class="image-box"></div>
+
+                            <p class="text-line">
+                                Nội dung văn bản của phần 1.
+                            </p>
+
+                            <p class="text-line">
+                                Nội dung văn bản của phần 1.
+                            </p>
+
+                            <p class="text-line">
+                                Nội dung văn bản của phần 1.
+                            </p>
+
+                            <p class="text-line">
+                                Nội dung văn bản của phần 1.
+                            </p>
+
+                        </td>
+
+                        <td class="content2">
+
+                            <div class="content-title">
+                                Nội dung 2
+                            </div>
+
+                            <ul class="circle-list">
+                                <li>Nội dung 2.1</li>
+                                <li>Nội dung 2.2</li>
+                                <li>Nội dung 2.3</li>
+                                <li>Nội dung 2.4</li>
+                            </ul>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td class="content3">
+
+                            <div class="content-title">
+                                Nội dung 3
+                            </div>
+
+                            <div class="image-box"></div>
+
+                            <p class="text-line">
+                                Nội dung văn bản.
+                            </p>
+
+                            <p class="text-line">
+                                Nội dung văn bản.
+                            </p>
+
+                            <p class="text-line">
+                                Nội dung văn bản.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</body>
+</html>

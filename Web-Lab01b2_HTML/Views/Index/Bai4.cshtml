@@ -1,0 +1,381 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Bài 4 - Sử dụng HTML5</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .layout {
+            width: 600px;
+            height: 350px;
+            margin: 30px auto 60px auto;
+            border: 2px solid #555;
+            position: relative;
+        }
+
+        header,
+        nav,
+        main,
+        aside,
+        section,
+        footer {
+            border: 2px solid #555;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        /* LAYOUT 1 */
+        .layout1 header {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 25%;
+        }
+
+        .layout1 aside {
+            top: 25%;
+            left: 0;
+            width: 25%;
+            height: 75%;
+        }
+
+        .layout1 main {
+            top: 25%;
+            left: 25%;
+            width: 75%;
+            height: 75%;
+        }
+
+        /* LAYOUT 2 */
+        .layout2 header {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 25%;
+        }
+
+        .layout2 main {
+            top: 25%;
+            left: 0;
+            width: 80%;
+            height: 75%;
+        }
+
+        .layout2 aside {
+            top: 25%;
+            right: 0;
+            width: 20%;
+            height: 75%;
+        }
+
+        /* LAYOUT 3 */
+        .layout3 header {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 25%;
+        }
+
+        .layout3 main {
+            top: 25%;
+            left: 0;
+            width: 80%;
+            height: 60%;
+        }
+
+        .layout3 aside {
+            top: 25%;
+            right: 0;
+            width: 20%;
+            height: 60%;
+        }
+
+        .layout3 footer {
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 15%;
+        }
+
+        /* LAYOUT 4 */
+        .layout4 header {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 22%;
+        }
+
+        .layout4 nav {
+            top: 22%;
+            left: 0;
+            width: 100%;
+            height: 10%;
+        }
+
+        .layout4 aside {
+            top: 32%;
+            left: 0;
+            width: 25%;
+            height: 68%;
+        }
+
+        .layout4 main {
+            top: 32%;
+            left: 25%;
+            width: 75%;
+            height: 68%;
+        }
+
+        /* LAYOUT 5 */
+        .layout5 header {
+            top: 0;
+            left: 0;
+            width: 70%;
+            height: 22%;
+        }
+
+        .layout5 nav {
+            top: 0;
+            right: 0;
+            width: 30%;
+            height: 22%;
+        }
+
+        .layout5 section {
+            top: 22%;
+            left: 0;
+            width: 100%;
+            height: 10%;
+        }
+
+        .layout5 aside {
+            top: 32%;
+            left: 0;
+            width: 22%;
+            height: 68%;
+        }
+
+        .layout5 main {
+            top: 32%;
+            left: 22%;
+            width: 78%;
+            height: 68%;
+        }
+
+        /* LAYOUT 6 */
+        .layout6 header {
+            top: 0;
+            left: 0;
+            width: 42%;
+            height: 22%;
+        }
+
+        .layout6 nav {
+            top: 0;
+            right: 0;
+            width: 58%;
+            height: 22%;
+        }
+
+        .layout6 aside {
+            top: 22%;
+            left: 0;
+            width: 20%;
+            height: 78%;
+        }
+
+        .layout6 main {
+            top: 22%;
+            left: 20%;
+            width: 60%;
+            height: 78%;
+        }
+
+        .layout6 section {
+            top: 22%;
+            right: 0;
+            width: 20%;
+            height: 78%;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>BÀI 4 - SỬ DỤNG HTML5</h1>
+
+    <!-- LAYOUT 1 -->
+    <h2>Layout 1</h2>
+
+    <div class="layout layout1">
+
+        <header>
+            HEADER
+        </header>
+
+        <aside>
+            MENU
+        </aside>
+
+        <main>
+            1
+        </main>
+
+    </div>
+
+    <!-- LAYOUT 2 -->
+    <h2>Layout 2</h2>
+
+    <div class="layout layout2">
+
+        <header>
+            HEADER
+        </header>
+
+        <main>
+            2
+        </main>
+
+        <aside>
+            MENU
+        </aside>
+
+    </div>
+
+    <!-- LAYOUT 3 -->
+    <h2>Layout 3</h2>
+
+    <div class="layout layout3">
+
+        <header>
+            HEADER
+        </header>
+
+        <main>
+            3
+        </main>
+
+        <aside>
+            RIGHT
+        </aside>
+
+        <footer>
+            FOOTER
+        </footer>
+
+    </div>
+
+    <!-- LAYOUT 4 -->
+    <h2>Layout 4</h2>
+
+    <div class="layout layout4">
+
+        <header>
+            HEADER
+        </header>
+
+        <nav>
+            NAVIGATION
+        </nav>
+
+        <aside>
+            MENU
+        </aside>
+
+        <main>
+            4
+        </main>
+
+    </div>
+
+    <!-- LAYOUT 5 -->
+    <h2>Layout 5</h2>
+
+    <div class="layout layout5">
+
+        <header>
+            LOGO
+        </header>
+
+        <nav>
+            MENU
+        </nav>
+
+        <section>
+            NAVIGATION
+        </section>
+
+        <aside>
+            MENU TRÁI
+        </aside>
+
+        <main>
+            5
+        </main>
+
+    </div>
+
+    <!-- LAYOUT 6 -->
+    <h2>Layout 6</h2>
+
+    <div class="layout layout6">
+
+        <header>
+            LOGO
+        </header>
+
+        <nav>
+            MENU
+        </nav>
+
+        <aside>
+            MENU TRÁI
+        </aside>
+
+        <main>
+            6
+        </main>
+
+        <section>
+            RIGHT
+        </section>
+
+    </div>
+
+</body>
+
+</html>
